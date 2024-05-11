@@ -127,7 +127,7 @@ fun DiaryItem(state: DiaryState, index: Int, onEvent: (DiaryEvent) -> Unit) {
 
             Text(text = state.diarys[index].description,
                 fontSize = 16.sp,
-                color = MaterialTheme.colorScheme.onSecondaryContainer
+                 color = MaterialTheme.colorScheme.onSecondaryContainer
             )
         }
 
